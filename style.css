@@ -893,18 +893,20 @@
        fill: rgba(255, 255, 255, 0.842);
        stroke-miterlimit: 10;
        stroke-width: 1px;
-       width: 40px;
+       width: 32px;
+       height: 32px;
+       display: block;
    }
 
    .social-icon-outline {
-       fill: transparent;
+       fill: rgba(255, 255, 255, 0.842);
        stroke: rgba(255, 255, 255, 0.842);
        stroke-linejoin: round;
-       stroke-width: 1.8px;
+       stroke-width: 0.35px;
    }
 
    .social-icon-outline path {
-       fill: transparent;
+       fill: rgba(255, 255, 255, 0.842);
    }
 
    .city {
@@ -1273,8 +1275,8 @@
        }
 
        .social>div:not(.footer-logo) {
-           width: 44px;
-           height: 44px;
+           width: 40px;
+           height: 40px;
            display: flex;
            align-items: center;
            justify-content: center;
@@ -1289,9 +1291,9 @@
        }
 
        .social svg {
-           width: 34px;
+           width: 30px;
+           height: 30px;
            max-width: 100%;
-           height: auto;
        }
 
        .footer-cont {
