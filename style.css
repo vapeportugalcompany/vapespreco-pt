@@ -43,9 +43,9 @@
 
    .logo img {
        display: block;
-       width: clamp(150px, 18vw, 240px);
-       height: auto;
-       max-height: 52px;
+       width: auto;
+       height: clamp(56px, 6vw, 72px);
+       max-width: min(210px, 42vw);
        object-fit: contain;
    }
 
@@ -859,8 +859,9 @@
    }
 
    .footer-logo img {
-       width: min(260px, 80vw);
+       width: min(230px, 80vw);
        height: auto;
+       object-fit: contain;
    }
 
    .footer-cont {
@@ -893,6 +894,17 @@
        stroke-miterlimit: 10;
        stroke-width: 1px;
        width: 40px;
+   }
+
+   .social-icon-outline {
+       fill: transparent;
+       stroke: rgba(255, 255, 255, 0.842);
+       stroke-linejoin: round;
+       stroke-width: 1.8px;
+   }
+
+   .social-icon-outline path {
+       fill: transparent;
    }
 
    .city {
@@ -1256,7 +1268,7 @@
 
        .footer-logo img {
            object-fit: contain;
-           width: min(210px, 72vw);
+           width: min(190px, 64vw);
            max-width: 100%;
        }
 
